@@ -1,0 +1,311 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+.header {
+    padding: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.header .search-bar {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.header .icon {
+    text-align: center;
+}
+.header .icon i {
+    font-size: 20px;
+}
+.header .icon span {
+    display: block;
+    font-size: 12px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #f8f9fa;
+}
+.navbar .nav-link {
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px 0;
+    background-color: #e6f0fa;
+}
+.hero .category-list {
+    list-style: none;
+    padding: 0;
+}
+.hero .category-list li {
+    padding: 10px 0;
+    font-weight: 500;
+}
+.hero .hero-content {
+    text-align: center;
+}
+.hero .hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.hero .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.hero .hero-right .user-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.hero .hero-right .offer-box, .hero .hero-right .quote-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Deals and Offers Section */
+.deals {
+    padding: 50px 0;
+    text-align: center;
+}
+.deals h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.deals .countdown {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.deals .deal-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.deals .deal-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Home and Outdoor Products Section */
+.home-outdoor {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+.home-outdoor h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.home-outdoor .product-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.home-outdoor .product-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Consumer Electronics and Gadgets Section */
+.electronics {
+    padding: 50px 0;
+    text-align: center;
+}
+.electronics h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.electronics .product-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.electronics .product-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Send Quote to Suppliers Section */
+.quote {
+    padding: 50px 0;
+    background-color: #e6f0fa;
+}
+.quote h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.quote p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.quote .quote-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Recommended Items Section */
+.recommended {
+    padding: 50px 0;
+    text-align: center;
+}
+.recommended h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.recommended .product-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.recommended .product-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Extra Services Section */
+.services {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.services .service-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.3s ease;
+}
+.services .service-card:hover {
+    transform: translateY(-10px);
+}
+.services .service-card i {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #007bff;
+}
+
+/* Suppliers by Region Section */
+.suppliers {
+    padding: 50px 0;
+    text-align: center;
+}
+.suppliers h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.suppliers .supplier-card {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Newsletter Subscription Section */
+.newsletter {
+    padding: 50px 0;
+    background-color: #e6f0fa;
+    text-align: center;
+}
+.newsletter h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.newsletter p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Footer Section */
+.footer {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+.footer .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+.footer ul li {
+    margin-bottom: 10px;
+}
+.footer ul li a {
+    color: #333;
+    text-decoration: none;
+}
+.footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Lazy Loading Animation */
+img[data-src] {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+img.loaded {
+    opacity: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header .search-bar {
+        margin-top: 20px;
+    }
+    .header .header-icons {
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .hero .category-list {
+        display: none;
+    }
+    .hero .hero-content {
+        text-align: center;
+    }
+    .hero .hero-right {
+        margin-top: 20px;
+    }
+    .deals .deal-card, .home-outdoor .product-card, .electronics .product-card, .recommended .product-card, .services .service-card, .suppliers .supplier-card {
+        margin-bottom: 20px;
+    }
+}
